@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Student internship job platform interface preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a22" />
+      <stop offset="1" stop-color="#0b1026" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a7a8c" />
+      <stop offset="1" stop-color="#22b8cf" />
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#102b36" />
+      <stop offset="1" stop-color="#0b1e27" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22b8cf" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#22b8cf" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <rect width="1200" height="800" fill="url(#grid)" />
+  <circle cx="1010" cy="140" r="330" fill="url(#glow)" />
+  <circle cx="160" cy="720" r="280" fill="url(#glow)" opacity="0.55" />
+
+  <rect x="100" y="96" width="1000" height="608" rx="26" fill="#0a1b24" stroke="#1d4b59" stroke-width="2" />
+  <rect x="100" y="96" width="1000" height="60" rx="26" fill="#0d2530" />
+  <rect x="100" y="130" width="1000" height="26" fill="#0d2530" />
+  <circle cx="140" cy="126" r="7" fill="#ff6b6b" />
+  <circle cx="166" cy="126" r="7" fill="#ffd43b" />
+  <circle cx="192" cy="126" r="7" fill="#4ad295" />
+  <rect x="460" y="114" width="280" height="24" rx="12" fill="#123440" />
+  <text x="600" y="131" text-anchor="middle" fill="#7ee0ed" font-family="monospace" font-size="13">internship.platform</text>
+
+  <rect x="100" y="156" width="200" height="548" fill="#0c222c" />
+  <rect x="128" y="190" width="54" height="54" rx="14" fill="url(#accent)" />
+  <text x="155" y="225" text-anchor="middle" fill="#06181f" font-family="sans-serif" font-weight="800" font-size="19">IP</text>
+  <rect x="128" y="276" width="126" height="10" rx="5" fill="#7ee0ed" opacity="0.8" />
+  <rect x="128" y="310" width="96" height="8" rx="4" fill="#7ee0ed" opacity="0.28" />
+  <rect x="128" y="334" width="112" height="8" rx="4" fill="#7ee0ed" opacity="0.28" />
+  <rect x="128" y="358" width="78" height="8" rx="4" fill="#7ee0ed" opacity="0.28" />
+  <rect x="128" y="382" width="104" height="8" rx="4" fill="#7ee0ed" opacity="0.28" />
+  <rect x="128" y="438" width="144" height="1" fill="#7ee0ed" opacity="0.16" />
+  <rect x="128" y="470" width="88" height="8" rx="4" fill="#7ee0ed" opacity="0.24" />
+  <rect x="128" y="494" width="118" height="8" rx="4" fill="#7ee0ed" opacity="0.24" />
+  <rect x="128" y="518" width="72" height="8" rx="4" fill="#7ee0ed" opacity="0.24" />
+  <rect x="128" y="618" width="144" height="42" rx="10" fill="#ffd43b" />
+  <text x="200" y="645" text-anchor="middle" fill="#0b1026" font-family="sans-serif" font-weight="700" font-size="13">My applications</text>
+
+  <text x="340" y="206" fill="#eef3f4" font-family="sans-serif" font-weight="700" font-size="34">Find your next internship</text>
+  <text x="340" y="236" fill="#9fc9d3" font-family="sans-serif" font-size="15">Search roles, explore companies, and keep every application in one place.</text>
+
+  <rect x="340" y="262" width="470" height="46" rx="12" fill="#102b36" stroke="#1d4b59" />
+  <circle cx="366" cy="285" r="7" fill="none" stroke="#7ee0ed" stroke-width="2" />
+  <line x1="371" y1="290" x2="377" y2="296" stroke="#7ee0ed" stroke-width="2" stroke-linecap="round" />
+  <text x="394" y="290" fill="#9fc9d3" font-family="sans-serif" font-size="13">Search roles, skills, or companies</text>
+  <rect x="742" y="270" width="56" height="30" rx="8" fill="url(#accent)" />
+  <text x="770" y="290" text-anchor="middle" fill="#06181f" font-family="sans-serif" font-weight="700" font-size="12">Search</text>
+
+  <text x="340" y="346" fill="#7ee0ed" font-family="monospace" font-size="11">RECOMMENDED</text>
+  <rect x="340" y="362" width="260" height="178" rx="16" fill="url(#card)" stroke="#1d4b59" />
+  <rect x="360" y="384" width="44" height="44" rx="10" fill="#0a7a8c" />
+  <text x="382" y="412" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-weight="700" font-size="15">WD</text>
+  <text x="418" y="402" fill="#eef3f4" font-family="sans-serif" font-weight="600" font-size="16">Web Development</text>
+  <text x="418" y="422" fill="#9fc9d3" font-family="sans-serif" font-size="12">Frontend · Backend</text>
+  <rect x="360" y="448" width="64" height="22" rx="11" fill="#123440" />
+  <text x="392" y="463" text-anchor="middle" fill="#7ee0ed" font-family="monospace" font-size="10">INTERN</text>
+  <rect x="432" y="448" width="72" height="22" rx="11" fill="#123440" />
+  <text x="468" y="463" text-anchor="middle" fill="#7ee0ed" font-family="monospace" font-size="10">REMOTE</text>
+  <rect x="360" y="490" width="220" height="1" fill="#7ee0ed" opacity="0.14" />
+  <text x="360" y="514" fill="#9fc9d3" font-family="sans-serif" font-size="12">Build and maintain web interfaces.</text>
+  <text x="584" y="526" text-anchor="end" fill="#ffd43b" font-family="sans-serif" font-weight="700" font-size="12">View role</text>
+
+  <rect x="620" y="362" width="260" height="178" rx="16" fill="url(#card)" stroke="#1d4b59" />
+  <rect x="640" y="384" width="44" height="44" rx="10" fill="#155e75" />
+  <text x="662" y="412" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-weight="700" font-size="15">DA</text>
+  <text x="698" y="402" fill="#eef3f4" font-family="sans-serif" font-weight="600" font-size="16">Data &amp; Analytics</text>
+  <text x="698" y="422" fill="#9fc9d3" font-family="sans-serif" font-size="12">SQL · Reporting</text>
+  <rect x="640" y="448" width="64" height="22" rx="11" fill="#123440" />
+  <text x="672" y="463" text-anchor="middle" fill="#7ee0ed" font-family="monospace" font-size="10">INTERN</text>
+  <rect x="712" y="448" width="72" height="22" rx="11" fill="#123440" />
+  <text x="748" y="463" text-anchor="middle" fill="#7ee0ed" font-family="monospace" font-size="10">HYBRID</text>
+  <rect x="640" y="490" width="220" height="1" fill="#7ee0ed" opacity="0.14" />
+  <text x="640" y="514" fill="#9fc9d3" font-family="sans-serif" font-size="12">Turn data into useful reports.</text>
+  <text x="864" y="526" text-anchor="end" fill="#ffd43b" font-family="sans-serif" font-weight="700" font-size="12">View role</text>
+
+  <rect x="900" y="262" width="168" height="278" rx="16" fill="url(#card)" stroke="#1d4b59" />
+  <text x="920" y="290" fill="#7ee0ed" font-family="monospace" font-size="10">APPLICATIONS</text>
+  <circle cx="928" cy="326" r="8" fill="#0a7a8c" />
+  <rect x="946" y="320" width="86" height="9" rx="4" fill="#eef3f4" opacity="0.72" />
+  <rect x="920" y="346" width="128" height="7" rx="3" fill="#9fc9d3" opacity="0.4" />
+  <circle cx="928" cy="390" r="8" fill="#ffd43b" />
+  <rect x="946" y="384" width="70" height="9" rx="4" fill="#eef3f4" opacity="0.72" />
+  <rect x="920" y="410" width="112" height="7" rx="3" fill="#9fc9d3" opacity="0.4" />
+  <circle cx="928" cy="454" r="8" fill="#22b8cf" />
+  <rect x="946" y="448" width="92" height="9" rx="4" fill="#eef3f4" opacity="0.72" />
+  <rect x="920" y="474" width="96" height="7" rx="3" fill="#9fc9d3" opacity="0.4" />
+  <rect x="920" y="504" width="128" height="1" fill="#7ee0ed" opacity="0.16" />
+  <text x="920" y="526" fill="#9fc9d3" font-family="sans-serif" font-size="11">Keep track of every step.</text>
+
+  <text x="340" y="588" fill="#7ee0ed" font-family="monospace" font-size="11">EXPLORE BY FIELD</text>
+  <rect x="340" y="606" width="150" height="58" rx="12" fill="#102b36" stroke="#1d4b59" />
+  <rect x="358" y="624" width="28" height="22" rx="5" fill="#0a7a8c" />
+  <text x="380" y="652" fill="#eef3f4" font-family="sans-serif" font-weight="600" font-size="12">Software</text>
+  <rect x="506" y="606" width="150" height="58" rx="12" fill="#102b36" stroke="#1d4b59" />
+  <rect x="524" y="624" width="28" height="22" rx="5" fill="#155e75" />
+  <text x="546" y="652" fill="#eef3f4" font-family="sans-serif" font-weight="600" font-size="12">Data</text>
+  <rect x="672" y="606" width="150" height="58" rx="12" fill="#102b36" stroke="#1d4b59" />
+  <rect x="690" y="624" width="28" height="22" rx="5" fill="#ffd43b" />
+  <text x="712" y="652" fill="#eef3f4" font-family="sans-serif" font-weight="600" font-size="12">Design</text>
+  <rect x="838" y="606" width="230" height="58" rx="12" fill="#102b36" stroke="#1d4b59" />
+  <rect x="856" y="624" width="28" height="22" rx="5" fill="#22b8cf" />
+  <text x="878" y="652" fill="#eef3f4" font-family="sans-serif" font-weight="600" font-size="12">Networking &amp; Cloud</text>
+
+  <rect x="340" y="682" width="728" height="1" fill="#7ee0ed" opacity="0.14" />
+  <text x="340" y="700" fill="#9fc9d3" font-family="sans-serif" font-size="11">Student view · Internship discovery and application tracking</text>
+</svg>

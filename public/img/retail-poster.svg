@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Part-time barista retail and customer service poster">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc" />
+      <stop offset="0.52" stop-color="#eef3f4" />
+      <stop offset="1" stop-color="#e2eef0" />
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a7a8c" />
+      <stop offset="1" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="steam" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a7a8c" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#0a7a8c" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#0a7a8c" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" rx="32" fill="url(#bg)" />
+  <circle cx="642" cy="188" r="170" fill="#0a7a8c" fill-opacity="0.08" />
+  <circle cx="150" cy="830" r="210" fill="#f59e0b" fill-opacity="0.08" />
+
+  <g fill="none" stroke="#0f172a" stroke-opacity="0.14" stroke-width="1.5">
+    <path d="M-20 264C128 218 208 302 346 268s210-122 346-76 112 138 150 150" />
+    <path d="M-20 310C128 264 208 348 346 314s210-122 346-76 112 138 150 150" />
+    <path d="M-20 356C128 310 208 394 346 360s210-122 346-76 112 138 150 150" />
+    <path d="M-20 700C128 654 208 738 346 704s210-122 346-76 112 138 150 150" />
+    <path d="M-20 746C128 700 208 784 346 750s210-122 346-76 112 138 150 150" />
+  </g>
+
+  <g transform="translate(400 430)">
+    <path d="M-118-112c-34-46 26-66 0-112M0-96c-34-46 26-66 0-112M118-112c-34-46 26-66 0-112" fill="none" stroke="url(#steam)" stroke-width="12" stroke-linecap="round" />
+    <path d="M-142-12h248v70c0 84-56 142-124 142S-142 142-142 58Z" fill="url(#cup)" />
+    <path d="M106 8h34c54 0 72 86 16 112-20 10-46 8-62 2" fill="none" stroke="url(#cup)" stroke-width="22" stroke-linecap="round" />
+    <path d="M-142-12h248" stroke="#eef3f4" stroke-opacity="0.45" stroke-width="8" stroke-linecap="round" />
+    <path d="M-188 226h376" stroke="#0f172a" stroke-opacity="0.24" stroke-width="2" stroke-linecap="round" />
+    <ellipse cx="0" cy="226" rx="154" ry="13" fill="#0f172a" fill-opacity="0.08" />
+  </g>
+
+  <text x="72" y="104" fill="#0a7a8c" font-family="JetBrains Mono, monospace" font-size="22" letter-spacing="6">SERVICE / RETAIL</text>
+  <text x="72" y="724" fill="#0f172a" font-family="Plus Jakarta Sans, sans-serif" font-size="86" font-weight="800" letter-spacing="-4">PART-TIME</text>
+  <text x="72" y="814" fill="#0f172a" font-family="Plus Jakarta Sans, sans-serif" font-size="86" font-weight="800" letter-spacing="-4">BARISTA</text>
+  <text x="72" y="882" fill="#475569" font-family="Inter, sans-serif" font-size="26">Customer service · Teamwork · Time management</text>
+  <text x="72" y="934" fill="#0f172a" font-family="JetBrains Mono, monospace" font-size="19" letter-spacing="4">PHNOM PENH · 2024 — PRESENT</text>
+</svg>
