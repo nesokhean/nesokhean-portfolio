@@ -7,7 +7,6 @@ const icons = {
   Email: 'mail',
   GitHub: 'github',
   Phone: 'phone',
-  CV: 'file',
 }
 </script>
 

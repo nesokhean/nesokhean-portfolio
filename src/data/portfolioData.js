@@ -13,7 +13,6 @@ export const profile = {
   phoneHref: '+855884807035',
   github: 'https://github.com/nesokhean',
   githubLabel: 'github.com/nesokhean',
-  cv: '/NE-SOKHEAN-CV.pdf',
   university: 'Royal University of Phnom Penh',
   universityShort: 'RUPP',
   degree: 'Bachelor of Computer Science',
@@ -81,7 +80,6 @@ export const achievements = {
     ],
     tags: ['Computer Science', 'Software', 'Cloud'],
     primary: { label: 'View projects', href: '#projects' },
-    secondary: { label: 'Download CV', href: profile.cv },
     images: [
       { src: '/img/milestone-1.webp', alt: 'Year 3 Computer Science milestone poster', pos: '50% 50%' },
       { src: '/img/milestone-2.webp', alt: 'Backend and cloud focus milestone poster', pos: '50% 50%' },
@@ -149,7 +147,7 @@ export const business = {
     name: 'Part-Time Barista',
     desc: 'Customer-facing work alongside full-time studies since 2024, focused on clear communication, teamwork and staying organized during busy service.',
     services: ['Customer service', 'Teamwork', 'Time management', 'Calm under pressure'],
-    links: [{ label: 'My CV', url: profile.cv }],
+    links: [],
     logo: '/img/barista-mark.png',
     gallery: [
       { src: '/img/barista-1.webp', alt: 'Customer service poster' },
@@ -166,7 +164,6 @@ export const contact = {
     { label: 'Email', value: profile.email, href: `mailto:${profile.email}`, external: false },
     { label: 'GitHub', value: profile.githubLabel, href: profile.github, external: true },
     { label: 'Phone', value: profile.phone, href: `tel:${profile.phoneHref}`, external: false },
-    { label: 'CV', value: 'Download CV (PDF)', href: profile.cv, external: true },
   ],
 }
 

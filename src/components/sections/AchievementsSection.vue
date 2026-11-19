@@ -54,10 +54,6 @@ const lightboxIndex = ref(-1)
               {{ featured.primary.label }}
               <AppIcon name="arrow" />
             </a>
-            <a :href="featured.secondary.href" class="cut-btn" target="_blank" rel="noopener">
-              {{ featured.secondary.label }}
-              <AppIcon name="arrow" />
-            </a>
           </div>
         </div>
       </li>

@@ -1,3 +1,9 @@
+import internshipImage from '../assets/projects/Modern Tech Workspace Presentation.png'
+import eventTicketImage from '../assets/projects/Event Ticket Booking Showcase.png'
+import learningImage from '../assets/projects/LearnFlow_ Learn Anytime, Anywhere.png'
+import restaurantImage from '../assets/projects/Restaurant Management Dashboard Showcase.png'
+import schoolImage from '../assets/projects/School Management System.png'
+
 export const projects = [
   {
     id: 'student-internship-job-platform',
@@ -15,7 +21,7 @@ export const projects = [
       'Company and listing management',
     ],
     stack: ['Laravel', 'PHP', 'PostgreSQL'],
-    image: '/img/project-internship.webp',
+    image: internshipImage,
     imageAlt: 'Student internship job platform interface preview',
     url: null,
   },
@@ -35,7 +41,7 @@ export const projects = [
       'Relational data model for events and tickets',
     ],
     stack: ['PHP', 'Laravel', 'SQL', 'JavaScript'],
-    image: '/img/project-event-ticket.webp',
+    image: eventTicketImage,
     imageAlt: 'Event ticket booking system interface preview',
     url: null,
   },
@@ -55,7 +61,7 @@ export const projects = [
       'Role-based access',
     ],
     stack: ['Vue.js', 'JavaScript', 'PHP', 'Laravel', 'SQL'],
-    image: '/img/project-learning.webp',
+    image: learningImage,
     imageAlt: 'Online learning platform interface preview',
     url: null,
   },
@@ -75,7 +81,7 @@ export const projects = [
       'Fast, task-focused interface',
     ],
     stack: ['C#', 'SQL', 'HTML', 'CSS'],
-    image: '/img/project-restaurant.webp',
+    image: restaurantImage,
     imageAlt: 'Restaurant management system interface preview',
     url: null,
   },
@@ -95,7 +101,7 @@ export const projects = [
       'Administrative dashboards',
     ],
     stack: ['PHP', 'Laravel', 'PostgreSQL', 'JavaScript'],
-    image: '/img/project-school.webp',
+    image: schoolImage,
     imageAlt: 'School management system interface preview',
     url: null,
   },

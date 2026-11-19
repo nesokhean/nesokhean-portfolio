@@ -6,7 +6,16 @@ import AppIcon from '../ui/AppIcon.vue'
 const scrolled = ref(false)
 const hidden = ref(false)
 const open = ref(false)
+const isDark = ref(false)
 let lastY = 0
+
+const setTheme = (dark) => {
+  isDark.value = dark
+  document.documentElement.dataset.theme = dark ? 'dark' : 'light'
+  localStorage.setItem('theme', dark ? 'dark' : 'light')
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#0b1026' : '#eef3f4')
+  document.querySelector('meta[name="color-scheme"]')?.setAttribute('content', dark ? 'dark' : 'light')
+}
 
 const onScroll = () => {
   const y = window.scrollY
@@ -33,6 +42,7 @@ const close = () => {
 }
 
 onMounted(() => {
+  isDark.value = document.documentElement.dataset.theme === 'dark'
   lastY = window.scrollY
   onScroll()
   window.addEventListener('scroll', onScroll, { passive: true })
@@ -69,6 +79,16 @@ onBeforeUnmount(() => {
     </nav>
 
     <div class="nav-end">
+      <button
+        type="button"
+        class="nav-theme-btn"
+        :aria-label="isDark ? 'Switch to light theme' : 'Switch to dark theme'"
+        :aria-pressed="isDark"
+        :title="isDark ? 'Light theme' : 'Dark theme'"
+        @click="setTheme(!isDark)"
+      >
+        <AppIcon :name="isDark ? 'sun' : 'moon'" />
+      </button>
       <a href="#contact" class="nav-cta" @click="close">
         Contact
         <AppIcon name="arrow" />
